@@ -49,7 +49,7 @@ const updateData = {
     console.log("7");
         try {
 
-            const updateBlog = await axios.patch(`http://localhost:3000/api/users/${id}`, updateData);
+            const updateBlog = await axios.patch(`https://omnificrud.herokuapp.com/api/users/${id}`, updateData);
             console.log(updateBlog.data);
             // alert(createBlog.data);
             history.push('/');
