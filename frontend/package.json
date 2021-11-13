@@ -1,6 +1,7 @@
 {
   "name": "crud",
-  "homepage": "http://sandy12345231.github.io/blogCRUD",
+  "homepage": "https://omnificrud.herokuapp.com",
+  "proxy": "https://omnificrud.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
