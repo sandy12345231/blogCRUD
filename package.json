@@ -1,5 +1,6 @@
 {
   "name": "backend",
+  "homepage": "http://sandy12345231.github.io/blogCRUD",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,9 +10,12 @@
     "cors": "^2.8.5",
     "email-validator": "^2.0.4",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "mongoose": "^6.0.12"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
