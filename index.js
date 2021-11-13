@@ -14,8 +14,8 @@ app.use(cors());
 app.use("/api" , Routers);
 
 
-const PORT = process.env.PORT || 3000;
-if(process.env.NODE_ENV === 'producation'){
+const PORT = process.env.PORT || 8000;
+if(process.env.NODE_PORT === 'producation'){
     app.use(express.static('client/build'));
 }
 app.get('*',(req,res)=>{
@@ -23,7 +23,7 @@ app.get('*',(req,res)=>{
 });
 
 app.listen(PORT,()=>{
-    console.log("Server connected in 3000 port");
+    console.log("Server connected in 8000 port");
 })
 
 // app.listen(3000, ()=>{
