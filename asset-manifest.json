@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/blogCRUD/static/css/main.15ca63be.chunk.css",
+    "main.js": "/blogCRUD/static/js/main.1a7def48.chunk.js",
+    "main.js.map": "/blogCRUD/static/js/main.1a7def48.chunk.js.map",
+    "runtime-main.js": "/blogCRUD/static/js/runtime-main.83c128d1.js",
+    "runtime-main.js.map": "/blogCRUD/static/js/runtime-main.83c128d1.js.map",
+    "static/js/2.04360f65.chunk.js": "/blogCRUD/static/js/2.04360f65.chunk.js",
+    "static/js/2.04360f65.chunk.js.map": "/blogCRUD/static/js/2.04360f65.chunk.js.map",
+    "static/js/3.686af44c.chunk.js": "/blogCRUD/static/js/3.686af44c.chunk.js",
+    "static/js/3.686af44c.chunk.js.map": "/blogCRUD/static/js/3.686af44c.chunk.js.map",
+    "index.html": "/blogCRUD/index.html",
+    "static/css/main.15ca63be.chunk.css.map": "/blogCRUD/static/css/main.15ca63be.chunk.css.map",
+    "static/js/2.04360f65.chunk.js.LICENSE.txt": "/blogCRUD/static/js/2.04360f65.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/blogCRUD/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c128d1.js",
+    "static/js/2.04360f65.chunk.js",
+    "static/css/main.15ca63be.chunk.css",
+    "static/js/main.1a7def48.chunk.js"
+  ]
+}
