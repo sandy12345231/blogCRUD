@@ -24,7 +24,7 @@ function CreateUser() {
 
         try {
 
-            const createBlog = await axios.post('http://localhost:3000/api/users', sendData);
+            const createBlog = await axios.post('https://omnificrud.herokuapp.com/api/users', sendData);
             console.log(createBlog.data);
             // alert(createBlog.data);
             history.push('/');

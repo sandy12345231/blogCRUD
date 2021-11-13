@@ -23,7 +23,7 @@ console.log("2");
    
     let fetchUpdate = async(id)=>{
         console.log("4");
-        let idUpdate = await axios.get(`http://localhost:3000/api/users/${id}`);
+        let idUpdate = await axios.get(`https://omnificrud.herokuapp.com/api/users/${id}`);
         console.log(idUpdate.data.name, "we we");
     
         setNames(idUpdate.data.name);
