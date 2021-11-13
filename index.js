@@ -14,7 +14,7 @@ app.use(cors());
 app.use("/api" , Routers);
 
 
-const PORT = process.env.Port || 3000;
+const PORT = process.env.PORT || 3000;
 if(process.env.NODE_ENV === 'producation'){
     app.use(express.static('client/build'));
 }
