@@ -73,11 +73,11 @@ function ListUser() {
                 <a href="/" class="view bg-warning" title="View Details" ><i  class="fa fa-edit"></i></a></NavLink></td>
         
         
-        <td><a href="/" class="view bg-danger" title="View Details" ><i onClick={()=>{
+        <td><NavLink to ="/"><a href="/" class="view bg-danger" title="View Details" ><i onClick={()=>{
             if (e._id) {
                 deleteData(e._id) 
             }
-         }} class="fa fa-trash"></i></a></td>
+         }} class="fa fa-trash"></i></a></NavLink></td>
 
     </tr>)
     })
