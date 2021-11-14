@@ -13,6 +13,10 @@
 .navbar{
     flex-wrap: nowrap;
 }
+img{
+    width: 15%;
+
+}
 .navbar-toggler{
     background-color: #fff!important;
 }
