@@ -1,4 +1,4 @@
-import axios from 'axios';
+import {axiosInstance} from '../config';
 import React,{useState} from 'react';
 import { useHistory } from "react-router-dom";
 
@@ -24,7 +24,7 @@ function CreateUser() {
 
         try {
 
-            const createBlog = await axios.post('https://omnificrud.herokuapp.com/api/users', sendData);
+            const createBlog = await axiosInstance.post('https://locolhost:3000/api/users', sendData);
             console.log(createBlog.data);
             // alert(createBlog.data);
             history.push('/');

@@ -1,5 +1,5 @@
 import React , {useState, useEffect} from 'react';
-import axios from 'axios';
+import {axiosInstance} from '../config';
 import {useHistory} from 'react-router-dom';
 import {useParams} from 'react-router-dom';
 
@@ -23,7 +23,7 @@ console.log("2");
    
     let fetchUpdate = async(id)=>{
         console.log("4");
-        let idUpdate = await axios.get(`https://omnificrud.herokuapp.com/api/users/${id}`);
+        let idUpdate = await axiosInstance.get(`https://locolhost:3000/api/users/${id}`);
         console.log(idUpdate.data.name, "we we");
     
         setNames(idUpdate.data.name);
@@ -49,7 +49,7 @@ const updateData = {
     console.log("7");
         try {
 
-            const updateBlog = await axios.patch(`https://omnificrud.herokuapp.com/api/users/${id}`, updateData);
+            const updateBlog = await axiosInstance.patch(`https://locolhost:3000/api/users/${id}`, updateData);
             console.log(updateBlog.data);
             // alert(createBlog.data);
             history.push('/');
