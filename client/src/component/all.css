@@ -10,6 +10,12 @@
   color: #fff;
   font-size: 20px;
 }
+.navbar{
+    flex-wrap: nowrap;
+}
+.navbar-toggler{
+    background-color: #fff!important;
+}
 #header {
     border-bottom: 1px solid #ddd;
     background-color: #000;

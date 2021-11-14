@@ -3,6 +3,7 @@ import React from 'react';
 import './all.css';
 
 
+
 function Header() {
     return (
         <React.Fragment>
@@ -37,7 +38,7 @@ function Header() {
         <div class="col-12">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
-                <img src="" alt="Omnific"/>
+                <img src="images/logo.png" alt="Omnific"/>
              
                 </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartoggle" aria-controls="navbartoggle" aria-expanded="false" aria-label="Toggle navigation">
