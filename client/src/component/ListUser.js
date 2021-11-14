@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './all.css';
 import Avatar from "react-avatar";
-import {axiosInstance} from '../config';
+import axios from 'axios';
 import { NavLink } from 'react-router-dom';
 
 function ListUser() {
@@ -29,7 +29,7 @@ function ListUser() {
     const getUser = async()=>{
         try {
 
-            const getBlog = await axiosInstance.get('https://locolhost:3000/api/users');
+            const getBlog = await axios.get('https://omnificrud.herokuapp.com/api/users');
             console.log(getBlog.data);
             setList(getBlog.data);
             
@@ -41,7 +41,7 @@ function ListUser() {
 
     const deleteData = async(_id)=>{
         try {
-            const getDelete = await axiosInstance.delete(`https://locolhost:3000/api/users/${_id}`);
+            const getDelete = await axios.delete(`https://omnificrud.herokuapp.com/api/users/${_id}`);
             console.log(getDelete.data);
 
             
